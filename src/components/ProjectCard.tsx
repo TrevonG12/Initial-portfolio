@@ -5,10 +5,11 @@ type Project = {
   title: string;
   tag: string;
   description: string;
-  stack: string[];
-  bullets: string[];
+  stack: readonly string[];
+  bullets: readonly string[];
   links: { live: string; code: string };
 };
+
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
