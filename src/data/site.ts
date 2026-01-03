@@ -115,6 +115,6 @@ export const site = {
     school: "Campbellsville University",
     degree: "B.S. Computer Science",
     grad: "Expected May 2026",
-    courses: ["Intro to Programming (Java)", "Programming II (Java)", "Computer Concepts & Applications"]
+    courses: ["Intro to Programming (Java)", "Programming II (Java)", "Computer Concepts & Applications", "Software Engineering", "Computer Architecture of the OS", "Systems Analysis & Design", "Database", "Mobile Application Development"]
   }
 } as const;
