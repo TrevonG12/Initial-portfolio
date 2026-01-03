@@ -81,7 +81,7 @@ export const site = {
     "Deployed the application for public access using Railway"
   ],
   links: {
-    live: "PASTE_YOUR_RAILWAY_URL_HERE",
+    live: "insight-dash-production.up.railway.app",
     code: "https://github.com/TrevonG12/Insight-Dash"
   }
 },
