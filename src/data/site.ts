@@ -1,0 +1,109 @@
+export const site = {
+  name: "Trevon Griffin",
+  roleTag: "Computer Science",
+  gradTag: "Graduating May 2026",
+  headline: "Full-Stack • Python • Backend",
+  summary:
+    "I build clean, deployable web applications and backend systems. I’m focused on shipping practical software, writing maintainable code, and leveling up fast through real projects.",
+
+  about:
+    "Computer Science major graduating in May 2026. I’ve built and deployed a full-stack inventory and project management app, and I’m expanding my portfolio with additional projects in data, backend, and systems to be ready for internship and entry-level opportunities.",
+
+  email: "trevongriffin88@gmail.com",
+
+  links: {
+    resume: "#",      // put your PDF in /public/resume.pdf then set to "/resume.pdf"
+    github: "https://github.com/TrevonG12",      // your GitHub
+    linkedin: "https://www.linkedin.com/in/trevon-g-3b49b5231/"     // your LinkedIn
+  },
+
+  topSkills: ["Python", "Flask", "MySQL", "HTML/CSS", "Java", "Git", "Deployments"],
+
+  quickStats: [
+    { title: "Featured Project", value: "Inventory & Project Management (Deployed)" },
+    { title: "Primary Stack", value: "Flask + MySQL" },
+    { title: "Currently Building", value: "2–3 projects for May grad portfolio" }
+  ],
+
+  skillGroups: [
+    { label: "Languages", items: ["Python", "Java", "JavaScript (basic)"] },
+    { label: "Frameworks & Tools", items: ["Flask", "MySQL", "HTML", "CSS", "Git", "Railway"] }
+  ],
+
+  projects: [
+    {
+      title: "Inventory & Project Management System",
+      tag: "Featured • Deployed",
+      description:
+        "A full-stack web app to manage inventory items and project workflows behind secure authentication.",
+      stack: ["Python", "Flask", "MySQL", "HTML/CSS", "Railway"],
+      bullets: [
+        "Built and deployed a full-stack Flask + MySQL application with authentication and protected routes",
+        "Designed relational schemas to store inventory and project data",
+        "Implemented full CRUD features to create, update, and track items/projects",
+        "Deployed to production and configured environment/database connectivity"
+      ],
+      links: {
+        live: "https://inventory-project-managament-production.up.railway.app/",
+        code: "#"
+      }
+    },
+    {
+      title: "Data Dashboard (Coming Soon)",
+      tag: "In Progress",
+      description:
+        "A Python analytics dashboard (data cleaning + visualization) to demonstrate data engineering fundamentals.",
+      stack: ["Python", "pandas", "Streamlit"],
+      bullets: [
+        "Ingest and clean a real dataset",
+        "Build interactive charts and filters",
+        "Publish a live dashboard"
+      ],
+      links: { live: "#", code: "#" }
+    },
+    {
+      title: "Mini Key-Value Store (Coming Soon)",
+      tag: "In Progress",
+      description:
+        "A lightweight in-memory store with TTL and benchmarking to demonstrate systems + performance thinking.",
+      stack: ["Python (or Go)", "Testing", "Benchmarks"],
+      bullets: [
+        "Implement core store operations and TTL expiration",
+        "Add concurrency-safe access (optional)",
+        "Benchmark read/write performance"
+      ],
+      links: { live: "#", code: "#" }
+    }
+  ],
+
+  experience: [
+    {
+      title: "Tech Developer Intern",
+      company: "Sponsors for Educational Opportunity",
+      location: "Remote",
+      dates: "Jul 2023 – Aug 2023",
+      bullets: [
+        "Completed 300+ hours of software engineering training focused on data structures, algorithms, and full-stack web development",
+        "Designed and implemented full-stack apps using Python (Flask) and MySQL with HTML/CSS/JavaScript",
+        "Collaborated in a mentorship program focused on professional growth and career readiness"
+      ]
+    },
+    {
+      title: "Web & Graphic Designer",
+      company: "Campbellsville University",
+      location: "Campbellsville, KY",
+      dates: "Aug 2021 – Dec 2021",
+      bullets: [
+        "Created fundraising graphics and flyers using Adobe and Microsoft tools to support scholarship initiatives",
+        "Iterated designs strategically to improve donor engagement"
+      ]
+    }
+  ],
+
+  education: {
+    school: "Campbellsville University",
+    degree: "B.S. Computer Science",
+    grad: "Expected May 2026",
+    courses: ["Intro to Programming (Java)", "Programming II (Java)", "Computer Concepts & Applications"]
+  }
+} as const;
