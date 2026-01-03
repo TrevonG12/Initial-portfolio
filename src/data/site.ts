@@ -36,12 +36,13 @@ export const site = {
       tag: "Featured • Deployed",
       description:
         "A full-stack web app to manage inventory items and project workflows behind secure authentication.",
-      stack: ["Python", "Flask", "MySQL", "HTML/CSS", "Railway"],
+      stack: ["Python", "Flask", "DynamoDB", "HTML/CSS", "Railway"],
       bullets: [
-        "Built and deployed a full-stack Flask + MySQL application with authentication and protected routes",
+        "Built and deployed a full-stack Flask + DynamoDB application with authentication and protected routes",
         "Designed relational schemas to store inventory and project data",
         "Implemented full CRUD features to create, update, and track items/projects",
-        "Deployed to production and configured environment/database connectivity"
+        "Deployed to production and configured environment/database connectivity",
+        "Demo User:admin Demo Password: password"
       ],
       links: {
         live: "https://inventory-project-managament-production.up.railway.app/",
