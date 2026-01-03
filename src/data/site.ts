@@ -49,6 +49,24 @@ export const site = {
       }
     },
     {
+  title: "Personal Portfolio Website",
+  tag: "Deployed",
+  description:
+    "A modern, responsive portfolio built to showcase projects, skills, and experience with a clean, recruiter-friendly UI.",
+  stack: ["Next.js", "TypeScript", "Tailwind CSS", "Railway"],
+  bullets: [
+    "Built a responsive portfolio using Next.js App Router and Tailwind CSS",
+    "Created reusable UI components (navbar, project cards, badges) with TypeScript",
+    "Integrated external links and static assets (resume, project demos) for sharing and recruiting",
+    "Configured production builds and deployed the site to Railway"
+  ],
+  links: {
+    live: "https://initial-portfolio-production.up.railway.app/",
+    code: "https://github.com/TrevonG12/Initial-portfolio"
+  }
+},
+
+    {
       title: "Data Dashboard (Coming Soon)",
       tag: "In Progress",
       description:
