@@ -46,7 +46,7 @@ export const site = {
       ],
       links: {
         live: "https://inventory-project-managament-production.up.railway.app/",
-        code: "#"
+        code: "https://github.com/TrevonG12/Inventory-Project"
       }
     },
     {
