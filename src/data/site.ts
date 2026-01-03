@@ -68,31 +68,23 @@ export const site = {
 },
 
     {
-      title: "Data Dashboard (Coming Soon)",
-      tag: "In Progress",
-      description:
-        "A Python analytics dashboard (data cleaning + visualization) to demonstrate data engineering fundamentals.",
-      stack: ["Python", "pandas", "Streamlit"],
-      bullets: [
-        "Ingest and clean a real dataset",
-        "Build interactive charts and filters",
-        "Publish a live dashboard"
-      ],
-      links: { live: "#", code: "#" }
-    },
-    {
-      title: "Mini Key-Value Store (Coming Soon)",
-      tag: "In Progress",
-      description:
-        "A lightweight in-memory store with TTL and benchmarking to demonstrate systems + performance thinking.",
-      stack: ["Python (or Go)", "Testing", "Benchmarks"],
-      bullets: [
-        "Implement core store operations and TTL expiration",
-        "Add concurrency-safe access (optional)",
-        "Benchmark read/write performance"
-      ],
-      links: { live: "#", code: "#" }
-    }
+  title: "InsightDash (Data Analytics Dashboard)",
+  tag: "Deployed",
+  description:
+    "Interactive data analytics dashboard built to explore sales performance, trends, and data quality.",
+  stack: ["Python", "pandas", "Streamlit", "Plotly", "Railway"],
+  bullets: [
+    "Built an interactive dashboard with filters for date range, region, category, and channel",
+    "Computed key performance indicators including revenue, orders, AOV, and refund rate",
+    "Developed an Insights page highlighting top products and category performance",
+    "Added a Data Quality page to validate missing values, duplicates, and business rule consistency",
+    "Deployed the application for public access using Railway"
+  ],
+  links: {
+    live: "PASTE_YOUR_RAILWAY_URL_HERE",
+    code: "https://github.com/TrevonG12/Insight-Dash"
+  }
+},
   ],
 
   experience: [
